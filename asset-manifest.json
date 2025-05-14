@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5576e0a7.css",
-    "main.js": "/static/js/main.b752ddf4.js",
+    "main.js": "/static/js/main.99ded6c9.js",
     "static/media/dracole.mp4": "/static/media/dracole.f72af5bd3186861a24dd.mp4",
     "static/media/dracole_vinyl_designs.png": "/static/media/dracole_vinyl_designs.b256c2cac82a0f378faa.png",
     "static/media/dracole_cover_blue.jpg": "/static/media/dracole_cover_blue.a801a5906fce5324ac31.jpg",
@@ -11,10 +11,10 @@
     "static/media/Gza-RegularCompressed.woff2": "/static/media/Gza-RegularCompressed.40444e99f2f340d295d1.woff2",
     "index.html": "/index.html",
     "main.5576e0a7.css.map": "/static/css/main.5576e0a7.css.map",
-    "main.b752ddf4.js.map": "/static/js/main.b752ddf4.js.map"
+    "main.99ded6c9.js.map": "/static/js/main.99ded6c9.js.map"
   },
   "entrypoints": [
     "static/css/main.5576e0a7.css",
-    "static/js/main.b752ddf4.js"
+    "static/js/main.99ded6c9.js"
   ]
 }
