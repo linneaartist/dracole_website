@@ -62,11 +62,11 @@ const Footer = () => {
 						© {new Date().getFullYear()} Dracole. All Rights Reserved.
 					</p>
 					<div className="footer-legal">
-						<a href="#" className="footer-legal-link">
+						<a href="/privacy-policy" className="footer-legal-link">
 							Privacy Policy
 						</a>
-						<a href="#" className="footer-legal-link">
-							Terms of Use
+						<a href="/terms" className="footer-legal-link">
+							Terms of Service
 						</a>
 					</div>
 				</div>
