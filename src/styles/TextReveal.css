@@ -1,0 +1,127 @@
+.text-reveal {
+	display: inline-block;
+	overflow: hidden;
+}
+
+.text-reveal-char {
+	display: inline-block;
+	opacity: 0;
+	transform-origin: center;
+	animation-fill-mode: forwards;
+	animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	white-space: pre;
+}
+
+/* Animation for each direction */
+.text-reveal-up {
+	transform: translateY(50px);
+}
+
+.text-reveal-up.active {
+	animation-name: revealUp;
+}
+
+.text-reveal-down {
+	transform: translateY(-50px);
+}
+
+.text-reveal-down.active {
+	animation-name: revealDown;
+}
+
+.text-reveal-left {
+	transform: translateX(50px);
+}
+
+.text-reveal-left.active {
+	animation-name: revealLeft;
+}
+
+.text-reveal-right {
+	transform: translateX(-50px);
+}
+
+.text-reveal-right.active {
+	animation-name: revealRight;
+}
+
+.text-reveal-fade {
+	opacity: 0;
+}
+
+.text-reveal-fade.active {
+	animation-name: revealFade;
+}
+
+.text-reveal-scale {
+	transform: scale(0);
+}
+
+.text-reveal-scale.active {
+	animation-name: revealScale;
+}
+
+/* Keyframes animations */
+@keyframes revealUp {
+	0% {
+		opacity: 0;
+		transform: translateY(50px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes revealDown {
+	0% {
+		opacity: 0;
+		transform: translateY(-50px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes revealLeft {
+	0% {
+		opacity: 0;
+		transform: translateX(50px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes revealRight {
+	0% {
+		opacity: 0;
+		transform: translateX(-50px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes revealFade {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes revealScale {
+	0% {
+		opacity: 0;
+		transform: scale(0);
+	}
+	100% {
+		opacity: 1;
+		transform: scale(1);
+	}
+}

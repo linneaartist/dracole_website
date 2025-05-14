@@ -1,0 +1,211 @@
+.button {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+	border: none;
+	border-radius: var(--radius-md);
+	font-weight: 600;
+	text-transform: none;
+	letter-spacing: 0.1em;
+	transition: all 0.3s ease;
+	text-decoration: none;
+}
+
+/* Variant styles */
+.button-primary {
+	background-color: var(--color-surface-variant);
+	color: var(--color-text);
+	box-shadow: var(--shadow-md);
+}
+
+.button-primary::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: -100%;
+	width: 100%;
+	height: 100%;
+	transition: all 0.5s ease;
+}
+
+.button-primary.button-orange::before {
+	background: linear-gradient(
+		90deg,
+		transparent,
+		var(--color-accent-orange),
+		transparent
+	);
+}
+
+.button-primary.button-blue::before {
+	background: linear-gradient(
+		90deg,
+		transparent,
+		var(--color-accent-blue),
+		transparent
+	);
+}
+
+.button-primary:hover::before {
+	left: 100%;
+}
+
+.button-primary .button-text {
+	position: relative;
+	z-index: 1;
+}
+
+.button-primary .button-glow {
+	position: absolute;
+	width: 30%;
+	height: 100%;
+	top: 0;
+	right: -30%;
+	background: linear-gradient(
+		90deg,
+		transparent,
+		rgba(255, 255, 255, 0.2),
+		transparent
+	);
+	transform: skewX(-45deg);
+	animation: glow 3s infinite;
+}
+
+@keyframes glow {
+	0% {
+		right: -30%;
+	}
+	30%,
+	100% {
+		right: 100%;
+	}
+}
+
+.button-secondary {
+	background-color: transparent;
+	position: relative;
+}
+
+.button-secondary::before,
+.button-secondary::after {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 2px;
+	transition: width 0.3s ease;
+}
+
+.button-secondary::before {
+	top: 0;
+	left: 0;
+}
+
+.button-secondary::after {
+	bottom: 0;
+	right: 0;
+}
+
+.button-secondary.button-orange::before,
+.button-secondary.button-orange::after {
+	background-color: var(--color-accent-orange);
+}
+
+.button-secondary.button-blue::before,
+.button-secondary.button-blue::after {
+	background-color: var(--color-accent-blue);
+}
+
+.button-secondary:hover::before,
+.button-secondary:hover::after {
+	width: 100%;
+}
+
+.button-secondary:hover {
+	letter-spacing: 0.2em;
+}
+
+.button-outline {
+	background-color: transparent;
+	position: relative;
+}
+
+.button-outline.button-orange {
+	border: 2px solid var(--color-accent-orange);
+	color: var(--color-accent-orange);
+}
+
+.button-outline.button-blue {
+	border: 2px solid var(--color-accent-blue);
+	color: var(--color-accent-blue);
+}
+
+.button-outline::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 100%;
+	transition: width 0.3s ease;
+	z-index: -1;
+}
+
+.button-outline.button-orange::before {
+	background-color: var(--color-accent-orange);
+}
+
+.button-outline.button-blue::before {
+	background-color: var(--color-accent-blue);
+}
+
+.button-outline:hover::before {
+	width: 100%;
+}
+
+.button-outline:hover {
+	color: var(--color-background);
+}
+
+/* Size variations */
+.button-small {
+	padding: 0.5rem 1rem;
+	font-size: 0.75rem;
+}
+
+.button-medium {
+	padding: 0.75rem 1.5rem;
+	font-size: 0.875rem;
+}
+
+.button-large {
+	padding: 1rem 2rem;
+	font-size: 1rem;
+}
+
+/* Color variations - additional effects */
+.button-orange:hover {
+	box-shadow: 0 0 15px rgba(225, 128, 86, 0.5);
+}
+
+.button-blue:hover {
+	box-shadow: 0 0 15px rgba(88, 113, 159, 0.5);
+}
+
+/* Disabled state */
+.button:disabled {
+	opacity: 0.6;
+	cursor: not-allowed;
+}
+
+.button:disabled:hover::before,
+.button:disabled:hover::after {
+	width: 0;
+}
+
+.button:disabled:hover {
+	box-shadow: none;
+	letter-spacing: 0.1em;
+}

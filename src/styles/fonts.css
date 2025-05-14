@@ -1,0 +1,35 @@
+@font-face {
+	font-family: "Kenarock";
+	src: url("../assets/fonts/Kenarock/Kenarock.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gza";
+	src: url("../assets/fonts/GzaTrial/Gza-RegularCompressed.woff2")
+		format("woff2");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* Global font styles */
+h1,
+h2,
+h3 {
+	font-family: "Kenarock", serif;
+	text-transform: none;
+}
+
+h4,
+h5,
+h6 {
+	font-family: "Gza", sans-serif;
+	text-transform: none;
+}
+
+body {
+	font-family: "Gza", sans-serif;
+}

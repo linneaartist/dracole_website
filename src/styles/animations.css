@@ -1,0 +1,329 @@
+/* Keyframes Animations */
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes fadeInUp {
+	0% {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes fadeInDown {
+	0% {
+		opacity: 0;
+		transform: translateY(-20px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes fadeInLeft {
+	0% {
+		opacity: 0;
+		transform: translateX(-20px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes fadeInRight {
+	0% {
+		opacity: 0;
+		transform: translateX(20px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.05);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+@keyframes float {
+	0% {
+		transform: translateY(0px);
+	}
+	50% {
+		transform: translateY(-10px);
+	}
+	100% {
+		transform: translateY(0px);
+	}
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes blinkShadow {
+	0%,
+	100% {
+		text-shadow: 0 0 5px rgba(225, 128, 86, 0.5);
+	}
+	50% {
+		text-shadow: 0 0 15px rgba(225, 128, 86, 0.8),
+			0 0 20px rgba(225, 128, 86, 0.4);
+	}
+}
+
+@keyframes bloodDrip {
+	0% {
+		height: 0;
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		height: 100px;
+		opacity: 0;
+	}
+}
+
+@keyframes flicker {
+	0%,
+	100% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0.7;
+	}
+}
+
+/* Utility Animation Classes */
+.animate-fade-in {
+	animation: fadeIn 1s ease forwards;
+}
+
+.animate-fade-in-up {
+	animation: fadeInUp 1s ease forwards;
+}
+
+.animate-fade-in-down {
+	animation: fadeInDown 1s ease forwards;
+}
+
+.animate-fade-in-left {
+	animation: fadeInLeft 1s ease forwards;
+}
+
+.animate-fade-in-right {
+	animation: fadeInRight 1s ease forwards;
+}
+
+.animate-pulse {
+	animation: pulse 2s ease-in-out infinite;
+}
+
+.animate-float {
+	animation: float 4s ease-in-out infinite;
+}
+
+.animate-spin {
+	animation: spin 10s linear infinite;
+}
+
+.animate-blink-shadow {
+	animation: blinkShadow 2s ease-in-out infinite;
+}
+
+.animate-blood-drip {
+	animation: bloodDrip 5s ease-in-out infinite;
+}
+
+.animate-flicker {
+	animation: flicker 3s ease-in-out infinite;
+}
+
+/* Delay Modifiers */
+.delay-100 {
+	animation-delay: 0.1s;
+}
+
+.delay-200 {
+	animation-delay: 0.2s;
+}
+
+.delay-300 {
+	animation-delay: 0.3s;
+}
+
+.delay-400 {
+	animation-delay: 0.4s;
+}
+
+.delay-500 {
+	animation-delay: 0.5s;
+}
+
+.delay-600 {
+	animation-delay: 0.6s;
+}
+
+.delay-700 {
+	animation-delay: 0.7s;
+}
+
+.delay-800 {
+	animation-delay: 0.8s;
+}
+
+.delay-900 {
+	animation-delay: 0.9s;
+}
+
+.delay-1000 {
+	animation-delay: 1s;
+}
+
+/* Duration Modifiers */
+.duration-fast {
+	animation-duration: 0.5s;
+}
+
+.duration-normal {
+	animation-duration: 1s;
+}
+
+.duration-slow {
+	animation-duration: 1.5s;
+}
+
+.duration-very-slow {
+	animation-duration: 2s;
+}
+
+/* Animation triggers for observed elements */
+.reveal {
+	opacity: 0;
+	transition: all 1s ease;
+}
+
+.reveal.active {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+.reveal-left {
+	opacity: 0;
+	transform: translateX(-50px);
+	transition: all 1s ease;
+}
+
+.reveal-left.active {
+	opacity: 1;
+	transform: translateX(0);
+}
+
+.reveal-right {
+	opacity: 0;
+	transform: translateX(50px);
+	transition: all 1s ease;
+}
+
+.reveal-right.active {
+	opacity: 1;
+	transform: translateX(0);
+}
+
+.reveal-up {
+	opacity: 0;
+	transform: translateY(50px);
+	transition: all 1s ease;
+}
+
+.reveal-up.active {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+/* Hover animations */
+.hover-grow {
+	transition: transform var(--transition-normal);
+}
+
+.hover-grow:hover {
+	transform: scale(1.05);
+}
+
+.hover-bright {
+	transition: filter var(--transition-normal);
+}
+
+.hover-bright:hover {
+	filter: brightness(1.2);
+}
+
+.hover-glow-orange {
+	transition: box-shadow var(--transition-normal);
+}
+
+.hover-glow-orange:hover {
+	box-shadow: 0 0 10px 2px var(--color-accent-orange);
+}
+
+.hover-glow-blue {
+	transition: box-shadow var(--transition-normal);
+}
+
+.hover-glow-blue:hover {
+	box-shadow: 0 0 10px 2px var(--color-accent-blue);
+}
+
+.hover-text-orange {
+	transition: color var(--transition-normal);
+}
+
+.hover-text-orange:hover {
+	color: var(--color-accent-orange);
+}
+
+.hover-text-blue {
+	transition: color var(--transition-normal);
+}
+
+.hover-text-blue:hover {
+	color: var(--color-accent-blue);
+}
+
+/* Blood drip effect */
+.blood-drip::after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	width: 2px;
+	background: var(--color-accent-orange);
+	transform: translateX(-50%);
+	animation: bloodDrip 5s ease-in-out infinite;
+}
