@@ -1,6 +1,23 @@
 @import "./variables.css";
 @import "./animations.css";
 
+@font-face {
+	font-family: "Gza Regular";
+	src: url("../assets/fonts/GzaTrial/Gza-Regular.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gza Regular Compressed";
+	src: url("../assets/fonts/GzaTrial/Gza-RegularCompressed.woff2")
+		format("woff2");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
 * {
 	margin: 0;
 	padding: 0;

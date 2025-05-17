@@ -68,6 +68,12 @@ const Footer = () => {
 						<a href="/terms" className="footer-legal-link">
 							Terms of Service
 						</a>
+						<a
+							href="https://claude.ai/share/fab10e70-5b51-4ab2-82ec-00bec16995ec"
+							className="footer-legal-link"
+						>
+							Claude.ai
+						</a>
 					</div>
 				</div>
 			</div>

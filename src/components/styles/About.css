@@ -78,6 +78,11 @@
 .brand-item p {
 	color: var(--color-text);
 	line-height: 1.6;
+	margin-bottom: 1.5rem;
+}
+
+.brand-item p:last-child {
+	margin-bottom: 0;
 }
 
 /* Band Description Section */
@@ -138,6 +143,241 @@
 .audience-item p {
 	color: var(--color-text);
 	line-height: 1.6;
+	margin-bottom: 1.5rem;
+}
+
+.audience-item p:last-child {
+	margin-bottom: 0;
+}
+
+/* Visual Elements Section */
+.visual-elements {
+	margin-bottom: 6rem;
+}
+
+/* Typography Section */
+.typography {
+	margin-bottom: 6rem;
+}
+
+.typography-grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 3rem;
+	margin-top: 3rem;
+}
+
+.typography-item {
+	background: rgba(0, 0, 0, 0.3);
+	padding: 2rem;
+	border-radius: 8px;
+	border: 1px solid rgba(225, 128, 86, 0.1);
+}
+
+.typography-text {
+	margin-bottom: 2rem !important;
+}
+
+.typography-item h3 {
+	color: var(--color-accent-orange);
+	font-size: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+
+.typography-item p {
+	color: var(--color-text);
+	line-height: 1.6;
+	margin-bottom: 1rem;
+	font-size: 1.1rem;
+}
+
+.typography-item p:nth-child(2) {
+	margin-bottom: 0;
+}
+
+.typography-item p:last-child {
+	margin-bottom: 0;
+}
+
+.font-display {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	margin-top: 2rem;
+}
+
+.font-example {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+.font-example h4 {
+	color: var(--color-accent-orange);
+	font-size: 1.2rem;
+	margin: 0;
+}
+
+.font-preview {
+	line-height: 1;
+	margin: 0;
+}
+
+.font-preview.body {
+	font: 100 2rem "Gza Regular", serif;
+	color: var(--color-accent-blue);
+}
+
+.font-preview.heading {
+	font: 100 2rem "Gza Regular Compressed", serif;
+	color: var(--color-accent-blue);
+}
+
+.font-preview.decorative {
+	font: 100 3rem "Kenarock", serif;
+	color: var(--color-accent-blue);
+}
+
+.font-info {
+	font-size: 0.9rem;
+	color: var(--color-text-secondary);
+}
+
+.visual-grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 3rem;
+	margin-top: 3rem;
+}
+
+.visual-item {
+	background: rgba(0, 0, 0, 0.3);
+	padding: 2rem;
+	border-radius: 8px;
+	border: 1px solid rgba(225, 128, 86, 0.1);
+}
+
+.visual-item h3 {
+	color: var(--color-accent-orange);
+	font-size: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+
+.visual-item p {
+	color: var(--color-text);
+	line-height: 1.6;
+	margin-bottom: 1.5rem;
+	font-size: 1.1rem;
+}
+
+.visual-item p:last-child {
+	margin-bottom: 0;
+}
+
+.color-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	gap: 2rem;
+	margin-top: 2rem;
+}
+
+.color-item {
+	text-align: center;
+}
+
+.color-circle {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin: 0 auto 1rem;
+	border: 2px solid rgba(255, 255, 255, 0.1);
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.color-item p {
+	margin-bottom: 0.5rem;
+	font-weight: 500;
+}
+
+.color-description {
+	font-size: 0.9rem !important;
+	color: var(--color-text-secondary) !important;
+}
+
+.blood-crimson {
+	color: #8b0000 !important;
+}
+
+/* Logo Display Styles */
+.logo-text-content {
+	display: flex;
+	flex-direction: column;
+	gap: 3rem;
+}
+
+.logo-section {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	gap: 2rem;
+	align-items: start;
+}
+
+.logo-full,
+.logo-standalone {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.logo-text {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.logo-text p {
+	margin: 0;
+	color: var(--color-text);
+	line-height: 1.8;
+	font-size: 1rem;
+	font-weight: 300;
+	letter-spacing: 0em;
+}
+
+.logo-svg {
+	width: 100%;
+	height: auto;
+	margin-bottom: 0.5rem;
+	filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
+}
+
+.logo-full .logo-svg {
+	max-width: 350px;
+}
+
+.logo-standalone .logo-svg {
+	max-width: 150px;
+	max-height: 250px;
+}
+
+.logo-caption {
+	color: var(--color-text);
+	font-size: 0.9rem;
+	font-weight: 500;
+	text-align: center;
+	margin: 0;
+	opacity: 0.8;
+}
+
+.alt-logos {
+	margin-top: 1rem;
+}
+
+.alt-logos-svg {
+	width: 100%;
+	height: auto;
+	max-width: 700px;
+	filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
 }
 
 /* Media Queries */
@@ -158,6 +398,40 @@
 	.description-text p {
 		font-size: 1rem;
 	}
+
+	.visual-grid {
+		grid-template-columns: 1fr;
+	}
+
+	.color-grid {
+		grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+	}
+
+	.color-circle {
+		width: 80px;
+		height: 80px;
+	}
+
+	.logo-section {
+		grid-template-columns: 1fr;
+		gap: 1.5rem;
+	}
+
+	.logo-full .logo-svg {
+		max-width: 250px;
+	}
+
+	.logo-standalone .logo-svg {
+		max-width: 120px;
+	}
+
+	.logo-text {
+		text-align: center;
+	}
+
+	.alt-logos-svg {
+		max-width: 300px;
+	}
 }
 
 @media (max-width: 480px) {
@@ -168,5 +442,30 @@
 	.brand-item,
 	.audience-item {
 		padding: 1.5rem;
+	}
+
+	.visual-item {
+		padding: 1.5rem;
+	}
+
+	.color-grid {
+		grid-template-columns: 1fr;
+	}
+
+	.color-circle {
+		width: 60px;
+		height: 60px;
+	}
+
+	.logo-full .logo-svg {
+		max-width: 200px;
+	}
+
+	.logo-standalone .logo-svg {
+		max-width: 100px;
+	}
+
+	.alt-logos-svg {
+		max-width: 250px;
 	}
 }

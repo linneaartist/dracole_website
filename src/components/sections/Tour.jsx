@@ -109,7 +109,10 @@ const Tour = () => {
 
 				<ScrollAnimation animation="fade-up" delay={600} className="tour-cta">
 					<p className="tour-cta-text">
-						Join us on our first ever tour. Tickets are available now.
+						Join us on our first ever tour. Tickets are available now. In this
+						age of social media and censorship, our concerts are strictly
+						no-phone environments. Put them down and focus on the music. We want
+						to see you in the pit! 🤘
 					</p>
 					<Button href="#" variant="outline" size="large" color="blue">
 						See All Dates
