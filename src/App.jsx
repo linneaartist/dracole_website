@@ -7,24 +7,16 @@ import Tour from "./components/sections/Tour";
 import Music from "./components/sections/Music";
 import Store from "./components/sections/Store";
 import "./styles/global.css";
-import "./styles/parallax.css";
 
 const App = () => {
 	const [activeSection, setActiveSection] = useState("home");
 	const scrollTimeoutRef = useRef(null);
 	const lastScrollPositionRef = useRef(0);
-	const parallaxRef = useRef(null);
 
 	useEffect(() => {
 		const handleScroll = () => {
 			const sections = document.querySelectorAll("section");
 			const scrollPosition = window.scrollY + 100;
-
-			// Parallax effect
-			if (parallaxRef.current) {
-				const scrolled = window.pageYOffset;
-				parallaxRef.current.style.transform = `translateY(${scrolled * 0.5}px)`;
-			}
 
 			// Clear any existing timeout
 			if (scrollTimeoutRef.current) {
@@ -94,8 +86,6 @@ const App = () => {
 
 	return (
 		<div className="app">
-			<div className="parallax-background" ref={parallaxRef} />
-			<div className="parallax-overlay" />
 			<Header activeSection={activeSection} />
 			<main>
 				<Hero />

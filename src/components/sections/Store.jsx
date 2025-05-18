@@ -5,6 +5,10 @@ import ScrollAnimation from "../animations/ScrollAnimation";
 import "../styles/Store.css";
 import collectionMockup from "../../assets/images/dracole_final_mockup_comp.jpg";
 import vinylDesign from "../../assets/images/dracole_vinyl_designs.png";
+import tshirtMockup from "../../assets/images/tshirt-mockup.png";
+import hoodieMockup from "../../assets/images/hoodie-mockup.png";
+import beanieMockup from "../../assets/images/beanie-mockup.png";
+import candleMockup from "../../assets/images/candles-mockup.png";
 
 const Store = () => {
 	const [selectedCategory, setSelectedCategory] = useState("all");
@@ -27,7 +31,7 @@ const Store = () => {
 			name: "Dripping Blood T-Shirt",
 			category: "shirts",
 			price: "350 SEK",
-			image: "",
+			image: tshirtMockup,
 			isNew: true,
 			isBestSeller: false,
 		},
@@ -72,7 +76,7 @@ const Store = () => {
 			name: "Chiropteran Hoodie",
 			category: "shirts",
 			price: "500 SEK",
-			image: "",
+			image: hoodieMockup,
 			isNew: false,
 			isBestSeller: true,
 		},
@@ -81,7 +85,7 @@ const Store = () => {
 			name: "Bat Beanie",
 			category: "accessories",
 			price: "190 SEK",
-			image: "",
+			image: beanieMockup,
 			isNew: false,
 			isBestSeller: false,
 		},
@@ -90,7 +94,7 @@ const Store = () => {
 			name: "Ritual Candle Set",
 			category: "accessories",
 			price: "250 SEK",
-			image: "",
+			image: candleMockup,
 			isNew: true,
 			isBestSeller: false,
 		},

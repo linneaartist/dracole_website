@@ -94,6 +94,32 @@ const Music = () => {
 					</div>
 				</ScrollAnimation>
 
+				{/* Latest Release Banner */}
+				<ScrollAnimation animation="fade-up" delay={600}>
+					<div className="latest-release">
+						<div className="latest-release-backdrop"></div>
+						<div className="latest-release-content">
+							<div className="latest-release-info">
+								<span className="latest-release-label">Latest Release</span>
+								<h3 className="latest-release-title">
+									The Anticosmic Chiropteran Swarm
+								</h3>
+								<p className="latest-release-description">Our first album.</p>
+								<a href="#" className="latest-release-link">
+									Listen Now
+								</a>
+							</div>
+							<div className="latest-release-artwork">
+								<img
+									src={anticosmicCover}
+									alt="Anticosmic album artwork"
+									className="latest-release-image"
+								/>
+							</div>
+						</div>
+					</div>
+				</ScrollAnimation>
+
 				{/* Albums Grid */}
 				<div className="albums-container">
 					{albums.map((album, index) => (
@@ -153,32 +179,6 @@ const Music = () => {
 						</ScrollAnimation>
 					))}
 				</div>
-
-				{/* Latest Release Banner */}
-				<ScrollAnimation animation="fade-up" delay={600}>
-					<div className="latest-release">
-						<div className="latest-release-backdrop"></div>
-						<div className="latest-release-content">
-							<div className="latest-release-info">
-								<span className="latest-release-label">Latest Release</span>
-								<h3 className="latest-release-title">
-									The Anticosmic Chiropteran Swarm
-								</h3>
-								<p className="latest-release-description">Our first album.</p>
-								<a href="#" className="latest-release-link">
-									Listen Now
-								</a>
-							</div>
-							<div className="latest-release-artwork">
-								<img
-									src={anticosmicCover}
-									alt="Anticosmic album artwork"
-									className="latest-release-image"
-								/>
-							</div>
-						</div>
-					</div>
-				</ScrollAnimation>
 			</div>
 		</section>
 	);

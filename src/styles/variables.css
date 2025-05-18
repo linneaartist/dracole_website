@@ -1,8 +1,8 @@
 :root {
 	/* Main Color Palette */
-	--color-background: #000000;
-	--color-surface: #111111;
-	--color-surface-variant: #1a1a1a;
+	--color-background: #0a0a0a;
+	--color-surface: #151515;
+	--color-surface-variant: #1f1f1f;
 	--color-text: #ffffff;
 	--color-text-muted: #aaaaaa;
 
@@ -19,19 +19,6 @@
 	--color-error: #cf3030;
 	--color-warning: #e6b325;
 	--color-info: #4b7bec;
-
-	/* Gradients */
-	--gradient-orange: linear-gradient(
-		135deg,
-		var(--color-accent-orange),
-		var(--color-accent-orange-dark)
-	);
-	--gradient-blue: linear-gradient(
-		135deg,
-		var(--color-accent-blue),
-		var(--color-accent-blue-dark)
-	);
-	--gradient-dark: linear-gradient(135deg, #111111, #000000);
 
 	/* Shadows */
 	--shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.3);

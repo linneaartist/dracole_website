@@ -6,17 +6,7 @@
 }
 
 .tour-background {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background-image: url("");
-	background-size: cover;
-	background-position: center;
-	filter: brightness(0.15) grayscale(40%);
-	opacity: 0.6;
-	z-index: 0;
+	display: none;
 }
 
 .tour-section .container {
@@ -170,6 +160,7 @@
 	color: var(--color-text);
 	margin-bottom: 1.5rem;
 	font-style: italic;
+	text-wrap: balance;
 }
 
 /* Media Queries */
