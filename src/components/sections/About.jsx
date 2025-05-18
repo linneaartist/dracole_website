@@ -11,12 +11,30 @@ const About = () => {
 		<section id="about" className="about-section">
 			<div className="container">
 				<div className="hero-content">
-					<ScrollAnimation animation="fade-up" delay={600}>
-						<p className="hero-description">
-							Formed in 2024, Dracole aims to bring the 90s black metal scene
-							back.
-						</p>
-					</ScrollAnimation>
+					<div className="band-description">
+						<div className="description-content">
+							<ScrollAnimation animation="fade-up" delay={600}>
+								<p className="hero-description">
+									Formed in 2024, Dracole aims to bring the 90s black metal
+									scene back.
+								</p>
+								<div className="description-text">
+									<p>
+										Dracole emerged from the depths of the underground metal
+										scene, channeling the energy of 90s black metal while
+										infusing it with contemporary elements. Our music is a call
+										back to darkness and an attempt to return to the uncensored
+										black metal scene. We were founded on the principles of the
+										Satanic or anti-Christ movement that is stereotypical of
+										other black metal bands, the anticosmic principle based on
+										the beliefs of the misanthropic Luciferian order founded by
+										Dissection musician Jon Noedtveidt. Dracole stands as a
+										monument to these roots of black metal.
+									</p>
+								</div>
+							</ScrollAnimation>
+						</div>
+					</div>
 
 					<ScrollAnimation animation="fade-up" delay={800}>
 						<div className="hero-buttons">
@@ -35,30 +53,16 @@ const About = () => {
 					</ScrollAnimation>
 				</div>
 
-				<div className="band-description">
-					<div className="description-content">
-						<div className="description-text">
-							<p>
-								Dracole emerged from the depths of the underground metal scene,
-								channeling the energy of 90s black metal while infusing it with
-								contemporary elements. Our music is a call back to darkness and
-								an attempt to return to the uncensored black metal scene.
-							</p>
-							<p>
-								Dracole was founded on the principles of the Satanic or
-								anti-Christ movement that is stereotypical of other black metal
-								bands. The anticosmic principle is based on the beliefs of the
-								misanthropic Luciferian order founded by Dissection musician Jon
-								Noedtveidt. Dracole stands as a monument to these roots of black
-								metal.
-							</p>
-						</div>
-					</div>
-				</div>
+				<h2 className="section-subtitle section-title-highlight-orange">
+					Brand Identity
+				</h2>
 
-				<h2 className="section-subtitle">Brand Identity</h2>
 				<div className="brand-grid">
 					<div className="brand-item">
+						<div className="brand-item-border-top"></div>
+						<div className="brand-item-border-right"></div>
+						<div className="brand-item-border-bottom"></div>
+						<div className="brand-item-border-left"></div>
 						<h3>Dark Aesthetic</h3>
 						<p>
 							We aim to showcase an unfiltered black metal aesthetic through
@@ -74,6 +78,10 @@ const About = () => {
 						</p>
 					</div>
 					<div className="brand-item">
+						<div className="brand-item-border-top"></div>
+						<div className="brand-item-border-right"></div>
+						<div className="brand-item-border-bottom"></div>
+						<div className="brand-item-border-left"></div>
 						<h3>Musical Heritage</h3>
 						<p>
 							Within the black metal scene, taking a trip to Transylvania is
@@ -86,6 +94,10 @@ const About = () => {
 						</p>
 					</div>
 					<div className="brand-item">
+						<div className="brand-item-border-top"></div>
+						<div className="brand-item-border-right"></div>
+						<div className="brand-item-border-bottom"></div>
+						<div className="brand-item-border-left"></div>
 						<h3>Cultural Impact</h3>
 						<p>
 							Creating a movement to spread the message of hate. Dracole serves
@@ -100,9 +112,15 @@ const About = () => {
 				</div>
 
 				<div className="target-audience">
-					<h2 className="section-subtitle blood-crimson">Target Audience</h2>
+					<h2 className="section-subtitle section-title-highlight-orange">
+						Target Audience
+					</h2>
 					<div className="audience-grid">
 						<div className="audience-item">
+							<div className="audience-item-border-top"></div>
+							<div className="audience-item-border-right"></div>
+							<div className="audience-item-border-bottom"></div>
+							<div className="audience-item-border-left"></div>
 							<h3>Metal Enthusiasts</h3>
 							<p>
 								Fans of black metal (and metal-adjacent music) who appreciate
@@ -112,6 +130,10 @@ const About = () => {
 							</p>
 						</div>
 						<div className="audience-item">
+							<div className="audience-item-border-top"></div>
+							<div className="audience-item-border-right"></div>
+							<div className="audience-item-border-bottom"></div>
+							<div className="audience-item-border-left"></div>
 							<h3>Alternative Culture</h3>
 							<p>
 								Those who embrace non-mainstream music and cultural movements;
@@ -120,6 +142,10 @@ const About = () => {
 							</p>
 						</div>
 						<div className="audience-item">
+							<div className="audience-item-border-top"></div>
+							<div className="audience-item-border-right"></div>
+							<div className="audience-item-border-bottom"></div>
+							<div className="audience-item-border-left"></div>
 							<h3>Artistic Community</h3>
 							<p>
 								People who value artistic expression and are drawn to dark,
@@ -131,7 +157,9 @@ const About = () => {
 				</div>
 
 				<div className="visual-elements">
-					<h2 className="section-subtitle blood-crimson">Visual Language</h2>
+					<h2 className="section-subtitle section-title-highlight-orange">
+						Visual Language
+					</h2>
 					<div className="visual-grid">
 						<div className="visual-item">
 							<h3>Logo</h3>
@@ -173,18 +201,18 @@ const About = () => {
 											fangs, and tapered body. The sharp lines evoke the
 											piercing of bat fangs.
 										</p>
-										<p>
-											The logotype can be increased in thickness or tweaked
-											(distressing, extra stroke, different color) to be placed
-											on merchandise or album covers while maintaining its
-											recognizability.
-										</p>
 										<div className="alt-logos">
 											<img
 												src={DracoleAltLogos}
 												alt="Alternative Logo Variations"
 												className="alt-logos-svg"
 											/>
+											<p className="alt-logos-caption">
+												The logotype can be increased in thickness or tweaked
+												(distressing, extra stroke, different color) to be
+												placed on merchandise or album covers while maintaining
+												its recognizability.
+											</p>
 										</div>
 									</div>
 								</div>
@@ -254,7 +282,9 @@ const About = () => {
 				</div>
 
 				<div className="typography">
-					<h2 className="section-subtitle blood-crimson">Typography</h2>
+					<h2 className="section-subtitle section-title-highlight-orange">
+						Typography
+					</h2>
 					<div className="typography-grid">
 						<div className="typography-item">
 							<h3>Typeface Selection</h3>
@@ -273,6 +303,15 @@ const About = () => {
 									created.
 								</p>
 							</div>
+							<div className="font-example">
+								<h4>Headings</h4>
+								<p className="font-preview heading">Gza Regular Compressed</p>
+								<p className="font-info">
+									Employed for subheadings and body text. Its condensed form
+									creates a bold impression that draws attention to important
+									sections.
+								</p>
+							</div>
 							<div className="font-display">
 								<div className="font-example">
 									<h4>Body Text</h4>
@@ -280,15 +319,6 @@ const About = () => {
 									<p className="font-info">
 										Used for packaging body text and general content. Its clean,
 										readable design ensures our messages are always clear.
-									</p>
-								</div>
-								<div className="font-example">
-									<h4>Headings</h4>
-									<p className="font-preview heading">Gza Regular Compressed</p>
-									<p className="font-info">
-										Employed for subheadings and body text. Its condensed form
-										creates a bold impression that draws attention to important
-										sections.
 									</p>
 								</div>
 							</div>

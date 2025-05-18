@@ -71,13 +71,12 @@ const Music = () => {
 		<section id="music" className="music-section">
 			<div className="container">
 				<ScrollAnimation animation="fade-down">
-					<SectionTitle title="Music" highlight="blue" />
+					<SectionTitle title="Music" highlight="orange" />
 				</ScrollAnimation>
 
 				{/* Streaming Platforms */}
 				<ScrollAnimation animation="fade-up" delay={200}>
 					<div className="streaming-platforms">
-						<h3 className="streaming-title">Listen on</h3>
 						<div className="streaming-icons">
 							{streamingPlatforms.map((platform) => (
 								<a

@@ -99,7 +99,7 @@
 	font-size: 2.5rem;
 	color: var(--color-text-muted);
 	max-width: 1000px;
-	margin: -2rem auto 2rem;
+	margin: auto;
 	opacity: 0;
 	animation: fadeInUp 1s ease 0.9s forwards;
 }

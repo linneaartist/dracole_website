@@ -43,7 +43,9 @@ const AboutModal = ({ isOpen, onClose }) => {
 					{/* Brand Identity Section */}
 					<ScrollAnimation animation="fade-up" delay={200}>
 						<div className="brand-identity">
-							<h2 className="section-subtitle">Brand Identity</h2>
+							<h2 className="section-subtitle section-title-highlight-orange">
+								Brand Identity
+							</h2>
 							<div className="brand-grid">
 								<div className="brand-item">
 									<h3>Visual Aesthetic</h3>
@@ -82,7 +84,9 @@ const AboutModal = ({ isOpen, onClose }) => {
 					{/* Band Description Section */}
 					<ScrollAnimation animation="fade-up" delay={400}>
 						<div className="band-description">
-							<h2 className="section-subtitle">The Band</h2>
+							<h2 className="section-subtitle section-title-highlight-orange">
+								The Band
+							</h2>
 							<div className="description-content">
 								<div className="description-text">
 									<p>
@@ -107,7 +111,9 @@ const AboutModal = ({ isOpen, onClose }) => {
 					{/* Target Audience Section */}
 					<ScrollAnimation animation="fade-up" delay={600}>
 						<div className="target-audience">
-							<h2 className="section-subtitle">Our Audience</h2>
+							<h2 className="section-subtitle section-title-highlight-orange">
+								Our Audience
+							</h2>
 							<div className="audience-grid">
 								<div className="audience-item">
 									<h3>Metal Enthusiasts</h3>

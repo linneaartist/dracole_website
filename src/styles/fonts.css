@@ -17,10 +17,15 @@
 
 /* Global font styles */
 h1,
-h2,
-h3 {
+h2 {
 	font-family: "Kenarock", serif;
 	text-transform: none;
+}
+
+h3 {
+	font-family: "Gza Regular Compressed", sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
 }
 
 h4,

@@ -22,7 +22,11 @@ const SectionTitle = ({
 			<h2 className="section-title">
 				<span className={highlightClass}>{firstWord}</span> {restOfTitle}
 			</h2>
-			<div className="section-title-divider"></div>
+			<div className="section-title-divider">
+				<div className="drip-1"></div>
+				<div className="drip-2"></div>
+				<div className="drip-3"></div>
+			</div>
 		</div>
 	);
 };

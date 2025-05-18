@@ -76,22 +76,6 @@
 	position: relative;
 }
 
-.section-subtitle::after {
-	content: "";
-	position: absolute;
-	bottom: -10px;
-	left: 50%;
-	transform: translateX(-50%);
-	width: 60px;
-	height: 2px;
-	background: linear-gradient(
-		90deg,
-		transparent,
-		var(--color-accent-orange),
-		transparent
-	);
-}
-
 .brand-identity,
 .band-description,
 .target-audience {

@@ -142,7 +142,9 @@ const Store = () => {
 				{/* Category Filters */}
 				<ScrollAnimation animation="fade-up" delay={300}>
 					<div className="category-filters">
-						<h3 className="category-filters-title">Browse By Category</h3>
+						<h3 className="category-filters-title section-title-highlight-blue">
+							Browse By Category
+						</h3>
 						<div className="category-buttons">
 							{categories.map((category) => (
 								<button
@@ -189,7 +191,9 @@ const Store = () => {
 				<ScrollAnimation animation="fade-up" delay={800}>
 					<div className="newsletter-signup">
 						<div className="newsletter-content">
-							<h3 className="newsletter-title">Join the Swarm</h3>
+							<h3 className="newsletter-title section-title-highlight-blue">
+								Join the Swarm
+							</h3>
 							<p className="newsletter-description">
 								Subscribe to our newsletter and be the first to know about new
 								releases, exclusive merch, and upcoming shows.
