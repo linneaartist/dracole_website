@@ -1,10 +1,15 @@
 {
   "files": {
-    "main.css": "/dracole_website/static/css/main.b7e9c76a.css",
-    "main.js": "/dracole_website/static/js/main.f3b1ecd6.js",
+    "main.css": "/dracole_website/static/css/main.667dc0ad.css",
+    "main.js": "/dracole_website/static/js/main.8eb886fb.js",
     "static/media/dracole.mp4": "/dracole_website/static/media/dracole.f72af5bd3186861a24dd.mp4",
     "static/media/dracole_vinyl_designs.png": "/dracole_website/static/media/dracole_vinyl_designs.b256c2cac82a0f378faa.png",
     "static/media/dracole_cover_blue.jpg": "/dracole_website/static/media/dracole_cover_blue.a801a5906fce5324ac31.jpg",
+    "static/media/dracole_cover.jpg": "/dracole_website/static/media/dracole_cover.d4f5380d59bc69c0c8e9.jpg",
+    "static/media/candles-mockup.png": "/dracole_website/static/media/candles-mockup.637bb80161c5996a285a.png",
+    "static/media/beanie-mockup.png": "/dracole_website/static/media/beanie-mockup.61c0bef86dd9fde4c01e.png",
+    "static/media/tshirt-mockup.png": "/dracole_website/static/media/tshirt-mockup.8d9c4a78799193f8f43b.png",
+    "static/media/hoodie-mockup.png": "/dracole_website/static/media/hoodie-mockup.f0cd627e2457eb9a0a95.png",
     "static/media/dracole_final_mockup_comp.jpg": "/dracole_website/static/media/dracole_final_mockup_comp.eab2e42ee0922e183b54.jpg",
     "static/media/dracole-alt-logos.svg": "/dracole_website/static/media/dracole-alt-logos.2795f749052ae2ba8569aae6cb538b46.svg",
     "static/media/dracule_svg.svg": "/dracole_website/static/media/dracule_svg.9268610434153c61567303287d03f3f8.svg",
@@ -13,11 +18,11 @@
     "static/media/Gza-RegularCompressed.woff2": "/dracole_website/static/media/Gza-RegularCompressed.40444e99f2f340d295d1.woff2",
     "static/media/dracole-body-svg.svg": "/dracole_website/static/media/dracole-body-svg.594aabe487feea2876584563499e08ef.svg",
     "index.html": "/dracole_website/index.html",
-    "main.b7e9c76a.css.map": "/dracole_website/static/css/main.b7e9c76a.css.map",
-    "main.f3b1ecd6.js.map": "/dracole_website/static/js/main.f3b1ecd6.js.map"
+    "main.667dc0ad.css.map": "/dracole_website/static/css/main.667dc0ad.css.map",
+    "main.8eb886fb.js.map": "/dracole_website/static/js/main.8eb886fb.js.map"
   },
   "entrypoints": [
-    "static/css/main.b7e9c76a.css",
-    "static/js/main.f3b1ecd6.js"
+    "static/css/main.667dc0ad.css",
+    "static/js/main.8eb886fb.js"
   ]
 }
