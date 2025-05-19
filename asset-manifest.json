@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/dracole_website/static/css/main.667dc0ad.css",
-    "main.js": "/dracole_website/static/js/main.8eb886fb.js",
+    "main.css": "/dracole_website/static/css/main.8831e10c.css",
+    "main.js": "/dracole_website/static/js/main.c61592d2.js",
     "static/media/dracole.mp4": "/dracole_website/static/media/dracole.f72af5bd3186861a24dd.mp4",
     "static/media/dracole_vinyl_designs.png": "/dracole_website/static/media/dracole_vinyl_designs.b256c2cac82a0f378faa.png",
+    "static/media/dracole-cd.png": "/dracole_website/static/media/dracole-cd.6290b27a403a3ab4ebab.png",
     "static/media/dracole_cover_blue.jpg": "/dracole_website/static/media/dracole_cover_blue.a801a5906fce5324ac31.jpg",
     "static/media/dracole_cover.jpg": "/dracole_website/static/media/dracole_cover.d4f5380d59bc69c0c8e9.jpg",
     "static/media/candles-mockup.png": "/dracole_website/static/media/candles-mockup.637bb80161c5996a285a.png",
@@ -11,18 +12,26 @@
     "static/media/tshirt-mockup.png": "/dracole_website/static/media/tshirt-mockup.8d9c4a78799193f8f43b.png",
     "static/media/hoodie-mockup.png": "/dracole_website/static/media/hoodie-mockup.f0cd627e2457eb9a0a95.png",
     "static/media/dracole_final_mockup_comp.jpg": "/dracole_website/static/media/dracole_final_mockup_comp.eab2e42ee0922e183b54.jpg",
+    "static/media/ai-implementation1.png": "/dracole_website/static/media/ai-implementation1.4863987ee3633c576334.png",
+    "static/media/ai-implementation2.png": "/dracole_website/static/media/ai-implementation2.4be6b6ff2fdde71cb48e.png",
+    "static/media/packaging.png": "/dracole_website/static/media/packaging.6c6ea5fcd696e3c6318e.png",
+    "static/media/cover-sketch.jpg": "/dracole_website/static/media/cover-sketch.d3cb318278d9adcddeaa.jpg",
+    "static/media/initial-sketch.jpg": "/dracole_website/static/media/initial-sketch.eff8917ca684fc4ac66e.jpg",
+    "static/media/sticker-pack.png": "/dracole_website/static/media/sticker-pack.e9e22a6f6c0a37fd96bd.png",
     "static/media/dracole-alt-logos.svg": "/dracole_website/static/media/dracole-alt-logos.2795f749052ae2ba8569aae6cb538b46.svg",
+    "static/media/dracole-patch.png": "/dracole_website/static/media/dracole-patch.325f2c952443d7ea1a40.png",
+    "static/media/dracole-logo-evolution.png": "/dracole_website/static/media/dracole-logo-evolution.1eafaae2fcddcdd1d6c4.png",
     "static/media/dracule_svg.svg": "/dracole_website/static/media/dracule_svg.9268610434153c61567303287d03f3f8.svg",
     "static/media/Kenarock.woff2": "/dracole_website/static/media/Kenarock.a3ee4932a380ebcde1e3.woff2",
     "static/media/Gza-Regular.woff2": "/dracole_website/static/media/Gza-Regular.61fcfdc8df216fe2a8d5.woff2",
     "static/media/Gza-RegularCompressed.woff2": "/dracole_website/static/media/Gza-RegularCompressed.40444e99f2f340d295d1.woff2",
     "static/media/dracole-body-svg.svg": "/dracole_website/static/media/dracole-body-svg.594aabe487feea2876584563499e08ef.svg",
     "index.html": "/dracole_website/index.html",
-    "main.667dc0ad.css.map": "/dracole_website/static/css/main.667dc0ad.css.map",
-    "main.8eb886fb.js.map": "/dracole_website/static/js/main.8eb886fb.js.map"
+    "main.8831e10c.css.map": "/dracole_website/static/css/main.8831e10c.css.map",
+    "main.c61592d2.js.map": "/dracole_website/static/js/main.c61592d2.js.map"
   },
   "entrypoints": [
-    "static/css/main.667dc0ad.css",
-    "static/js/main.8eb886fb.js"
+    "static/css/main.8831e10c.css",
+    "static/js/main.c61592d2.js"
   ]
 }
