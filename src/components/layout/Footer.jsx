@@ -10,7 +10,9 @@ const Footer = () => {
 				<div className="footer-content">
 					<div className="footer-branding">
 						<img src={dracoleLogo} alt="Dracole" className="footer-logo" />
-						<p className="footer-tagline">Embrace the Darkness</p>
+						<p className="footer-tagline">
+							Dracole is a Swedish black metal band.
+						</p>
 					</div>
 
 					<div className="footer-navigation">
@@ -59,7 +61,7 @@ const Footer = () => {
 
 				<div className="footer-bottom">
 					<p className="copyright">
-						© {new Date().getFullYear()} Dracole. All Rights Reserved.
+						© {new Date().getFullYear()} Dracole. All Rights Reserved. Made with Cursor.
 					</p>
 					<div className="footer-legal">
 						<a href="/privacy-policy" className="footer-legal-link">

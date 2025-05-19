@@ -1,12 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import ScrollAnimation from "../animations/ScrollAnimation";
 import Button from "../ui/Button";
 import "../styles/About.css";
 import DracoleLogo from "../../assets/images/dracule_svg.svg";
 import DracoleBody from "../../assets/images/dracole-body-svg.svg";
 import DracoleAltLogos from "../../assets/images/dracole-alt-logos.svg";
+import SectionTitle from "../common/SectionTitle";
+import BrandCreationModal from "../modals/BrandCreationModal";
 
 const About = () => {
+	const [isBrandModalOpen, setIsBrandModalOpen] = useState(false);
+
 	return (
 		<section id="about" className="about-section">
 			<div className="container">
@@ -48,6 +52,14 @@ const About = () => {
 							</Button>
 							<Button href="#music" variant="outline" size="large" color="blue">
 								Listen Now
+							</Button>
+							<Button
+								variant="outline"
+								size="large"
+								color="orange"
+								onClick={() => setIsBrandModalOpen(true)}
+							>
+								Brand History
 							</Button>
 						</div>
 					</ScrollAnimation>
@@ -326,6 +338,11 @@ const About = () => {
 					</div>
 				</div>
 			</div>
+
+			<BrandCreationModal
+				isOpen={isBrandModalOpen}
+				onClose={() => setIsBrandModalOpen(false)}
+			/>
 		</section>
 	);
 };

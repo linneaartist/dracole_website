@@ -9,7 +9,9 @@ import tshirtMockup from "../../assets/images/tshirt-mockup.png";
 import hoodieMockup from "../../assets/images/hoodie-mockup.png";
 import beanieMockup from "../../assets/images/beanie-mockup.png";
 import candleMockup from "../../assets/images/candles-mockup.png";
-
+import logoPatch from "../../assets/images/dracole-patch.png";
+import stickerPack from "../../assets/images/sticker-pack.png";
+import cdMockup from "../../assets/images/dracole-cd.png";
 const Store = () => {
 	const [selectedCategory, setSelectedCategory] = useState("all");
 
@@ -34,6 +36,7 @@ const Store = () => {
 			image: tshirtMockup,
 			isNew: true,
 			isBestSeller: false,
+			soldOut: true,
 		},
 		{
 			id: 2,
@@ -49,7 +52,7 @@ const Store = () => {
 			name: "Dracole Crest Patch",
 			category: "patches",
 			price: "100 SEK",
-			image: "",
+			image: logoPatch,
 			isNew: false,
 			isBestSeller: false,
 		},
@@ -58,7 +61,7 @@ const Store = () => {
 			name: "The Anticosmic Chiropteran Swarm CD",
 			category: "cds",
 			price: "150 SEK",
-			image: "",
+			image: cdMockup,
 			isNew: false,
 			isBestSeller: false,
 		},
@@ -67,7 +70,7 @@ const Store = () => {
 			name: "Dracole Logo Sticker Pack",
 			category: "stickers",
 			price: "50 SEK",
-			image: "",
+			image: stickerPack,
 			isNew: true,
 			isBestSeller: false,
 		},
@@ -181,6 +184,9 @@ const Store = () => {
 										alt={product.name}
 										className="product-image"
 									/>
+									{product.soldOut && (
+										<div className="sold-out-label">SOLD OUT</div>
+									)}
 								</div>
 								<div className="product-info">
 									<span className="product-price">{product.price}</span>

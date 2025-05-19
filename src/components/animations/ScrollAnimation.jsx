@@ -6,7 +6,7 @@ const ScrollAnimation = ({
 	animation = "fade-up",
 	duration = "normal",
 	delay = 0,
-	threshold = 0.2,
+	threshold = 0.1,
 	once = true,
 	className = "",
 	...props
@@ -26,11 +26,9 @@ const ScrollAnimation = ({
 			(entries) => {
 				entries.forEach((entry) => {
 					if (entry.isIntersecting) {
-						setTimeout(() => {
-							const classesToAdd = [animationClass, durationClass];
-							if (delayClass) classesToAdd.push(delayClass);
-							element.classList.add(...classesToAdd);
-						}, 100);
+						const classesToAdd = [animationClass, durationClass];
+						if (delayClass) classesToAdd.push(delayClass);
+						element.classList.add(...classesToAdd);
 
 						if (once) {
 							observer.unobserve(element);
@@ -42,7 +40,7 @@ const ScrollAnimation = ({
 			},
 			{
 				threshold,
-				rootMargin: "0px 0px -50px 0px",
+				rootMargin: "0px 0px -10% 0px",
 			}
 		);
 

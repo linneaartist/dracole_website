@@ -182,6 +182,23 @@
 	transition: box-shadow 0.3s, transform 0.3s;
 	margin-bottom: 1.5rem;
 	overflow: hidden;
+	position: relative;
+}
+
+.sold-out-label {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	background-color: rgba(207, 55, 55, 0.2);
+	color: #cf3737;
+	padding: 0.5rem 1rem;
+	font-size: 0.75rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	z-index: 2;
+	border-radius: var(--radius-sm);
+	border: 1px solid #cf3737;
 }
 
 .product-image {
