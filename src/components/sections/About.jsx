@@ -5,7 +5,6 @@ import "../styles/About.css";
 import DracoleLogo from "../../assets/images/dracule_svg.svg";
 import DracoleBody from "../../assets/images/dracole-body-svg.svg";
 import DracoleAltLogos from "../../assets/images/dracole-alt-logos.svg";
-import SectionTitle from "../common/SectionTitle";
 import BrandCreationModal from "../modals/BrandCreationModal";
 
 const About = () => {
